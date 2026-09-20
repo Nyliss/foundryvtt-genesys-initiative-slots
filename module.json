@@ -1,0 +1,35 @@
+{
+  "id": "genesys-initiative-slots",
+  "title": "Genesys Initiative Slots",
+  "description": "Foundry VTT 13 enhancement for Genesys 0.2.19: RAW-style PC/Neutral/NPC initiative slots, token claiming, mid-combat rolls, and an optional scalable carousel with NPC privacy controls, status display, Soak, Defence, Wounds, and Strain.",
+  "version": "0.2.5",
+  "authors": [
+    {
+      "name": "Nyliss"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "genesys",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.2.19",
+          "maximum": "0.2.19",
+          "verified": "0.2.19"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/genesys-initiative-slots.css"
+  ],
+  "socket": true
+}
