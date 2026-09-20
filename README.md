@@ -3,6 +3,9 @@
 Target: **Foundry VTT 13.351** + **Genesys 0.2.19**.
 
 This module keeps the native Genesys `Combat`, `Combatant`, and dice engine. It adds Genesys-style initiative slots, token-based claiming, a non-modal carousel, and UI/privacy helpers without replacing the underlying combat documents.
+## Demo
+
+https://github.com/user-attachments/assets/5c16580b-5b76-4214-8773-412d624e8849
 
 ## Initiative slots
 
