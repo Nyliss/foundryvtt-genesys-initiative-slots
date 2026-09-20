@@ -70,6 +70,15 @@ For players, NPC and Neutral cards hide Soak, Defence, and numeric Wounds/Strain
 - Double-click opens the actor sheet.
 - `×` disables the carousel for that client without disabling the normal Encounter Tracker.
 
+### Installation
+Paste this Manifest URL into Foundry VTT:
+
+https://github.com/Nyliss/foundryvtt-genesys-initiative-slots/releases/latest/download/module.json
+
+In Foundry:
+
+Configuration and Setup → Add-on Modules → Install Module → Manifest URL
+
 ## Compatibility and maintenance notes
 
 Built specifically for **Foundry VTT 13.351** and **Genesys 0.2.19**. The manifest intentionally pins Genesys compatibility to 0.2.19 because the module augments that version's combat setup behavior.
